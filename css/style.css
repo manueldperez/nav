@@ -9,10 +9,9 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: indianred;
 }
-.logo {
-    color: rgb(225, 225, 225);
+.title {
+    color: #5f565e;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 20px;
@@ -23,7 +22,7 @@ nav {
     width: 24%;
 }
 .nav-links a {
-    color: rgb(225, 225, 225);
+    color: #5f565e;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: 300;
@@ -35,7 +34,7 @@ nav {
 .expand div {
     width: 25px;
     height: 3px;
-    background-color: rgb(225, 225, 225);
+    background-color: #5f565e;
     margin: 5px;
     transition: all 0.5s ease;
 }
@@ -43,43 +42,60 @@ nav {
     display: none;
     cursor: pointer;
 }
-.pictures {
+.cols {
     max-width: 1920px;
     max-height: auto;
+    /* position: relative; */
+    /* width: 30%; */
 }
-.pictures img {
+.cols img {
     max-width: 100%;
     max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.pictures .mid, .small {
+.cols .mid, .small {
     display: none;
 }
-.pictures .full {
-    display: unset;
+.cols .full {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin: 2em;
+    justify-content: center;
 }
 @media screen and (max-width:1024px) {
     .nav-links {
         width: 40%; 
     }
-    .pictures .full, .small {
+    .cols .full, .small {
         display: none;
     }
-    .pictures .mid {
-        display: unset;
+    .cols .mid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        margin: 2em;
+        justify-content: center;
     }
 }
 @media screen and (max-width:590px) {
     .nav-links {
         position: absolute;
-        right: 0;
-        height: 92vh;
-        top: 8vh;
-        background-color: indianred;
+        right: -5px;
+        height: 45vh;
+        top: 7vh;
+        transform: translateY();
+        background-color: white;
+        border-radius: 1vh;
+
         display: flex;
         flex-direction: column;
         justify-content: start;
         width: 40%;
         align-items: center;
+        opacity: 0;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
@@ -91,15 +107,20 @@ nav {
     .expand {
         display: block;
     }
-    .pictures .mid, .full {
+    .cols .mid, .full {
         display: none;
     }
-    .pictures .small {
-        display: unset;
+    .cols .small {
+        display: grid;
+        margin: 0 3em 3em 3em;
+    }
+    .cols .small img {
+        padding-bottom: 1em;
     }
 }
 .nav-active {
     transform: translateX(0%);
+    opacity: 1;
 }
 @keyframes navLinkFade {
     from {

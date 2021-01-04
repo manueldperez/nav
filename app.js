@@ -2,7 +2,6 @@ const navSlide = () => {
     const expand = document.querySelector('.expand');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
-
     
     expand.addEventListener('click',()=> {
         //Toggle Nav
