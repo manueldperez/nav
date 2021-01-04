@@ -90,7 +90,7 @@ nav {
 
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        /* justify-content: start; */
         width: 40%;
         align-items: center;
         opacity: 0;
