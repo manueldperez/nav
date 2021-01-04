@@ -99,9 +99,6 @@ nav {
     .nav-links li {
         opacity: 0;
     }
-    .nav-links li:first-child {
-        /* padding-top: 1em; */
-    }
     .expand {
         display: block;
     }
