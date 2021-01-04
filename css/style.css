@@ -45,8 +45,6 @@ nav {
 .cols {
     max-width: 1920px;
     max-height: auto;
-    /* position: relative; */
-    /* width: 30%; */
 }
 .cols img {
     max-width: 100%;
@@ -87,7 +85,6 @@ nav {
         height: 45vh;
         top: 7vh;
         transform: translateY();
-        background-color: white;
         border-radius: 1vh;
 
         display: flex;
