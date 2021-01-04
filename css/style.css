@@ -84,6 +84,7 @@ nav {
         right: -5px;
         height: 45vh;
         top: 7vh;
+        background-color: white;
         transform: translateY();
         border-radius: 1vh;
 
@@ -109,6 +110,7 @@ nav {
     }
     .cols .small {
         display: grid;
+        grid-template-columns: 1fr;
         margin: 0 3em 3em 3em;
     }
     .cols .small img {
