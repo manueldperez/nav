@@ -100,7 +100,7 @@ nav {
         opacity: 0;
     }
     .nav-links li:first-child {
-        padding-top: 3em;
+        padding-top: 1.5em;
     }
     .expand {
         display: block;
