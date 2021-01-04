@@ -99,7 +99,7 @@ nav {
     }
     .nav-links li {
         opacity: 0;
-        height: 5em;
+        /* height: 5em; */
     }
     .expand {
         display: block;
