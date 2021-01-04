@@ -81,7 +81,7 @@ nav {
 @media screen and (max-width:590px) {
     .nav-links {
         position: absolute;
-        right: -5px;
+        right: 0;
         height: 45vh;
         top: 7vh;
         background-color: white;
@@ -90,7 +90,6 @@ nav {
 
         display: flex;
         flex-direction: column;
-        /* justify-content: start; */
         width: 40%;
         align-items: center;
         opacity: 0;
@@ -99,7 +98,9 @@ nav {
     }
     .nav-links li {
         opacity: 0;
-        /* height: 5em; */
+    }
+    .nav-links li:first-child {
+        padding-top: 0.5em;
     }
     .expand {
         display: block;
