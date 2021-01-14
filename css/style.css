@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
+    overflow: hidden;
 }
 /*********************************************** nav ***********************************************/
 nav {
@@ -194,7 +195,6 @@ nav {
 ***************************/
 @media screen and (max-width:600px) {
     .nav-links {
-        overflow: hidden;
         position: absolute;
         right: 0;
         height: 45vh;
