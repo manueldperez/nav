@@ -197,10 +197,13 @@ nav {
     phone screen size
 ***************************/
 @media screen and (max-width:600px) {
+    html {
+        overflow-x: hidden;
+    }
     body {
         overflow-x: hidden;
         overflow-y: scroll !important;
-        position: absolute;
+        /* position: absolute; */
     }
     .nav-links {
         position: absolute;
@@ -248,7 +251,7 @@ nav {
         opacity: 0;
         display: grid;
         justify-content: center;
-        transform: translateY(-1225%);
+        transform: translateY(-1200%);
     }
     .img-1:hover .text-container {
         opacity: 1;
