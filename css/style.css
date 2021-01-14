@@ -199,7 +199,7 @@ body {
 @media screen and (max-width:600px) {
     html, body {
         overflow-x: hidden;
-        position: relative;
+        /* position: relative; */
     }
     .nav-links {
         position: absolute;
@@ -247,82 +247,12 @@ body {
         opacity: 0;
         display: grid;
         justify-content: center;
-        transform: translateY(-850%);
+        transform: translateY(-800%);
     }
     .img-1:hover .text-container {
         opacity: 1;
     }
     .photo-container .img-1:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
-    }
-    .img-2 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
-        transform: translateY(-850%);
-    }
-    .img-2:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-2:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
-    }
-    .img-3 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
-        transform: translateY(-850%);
-    }
-    .img-3:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-3:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
-    }
-    .img-4 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
-        transform: translateY(-850%);
-    }
-    .img-4:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-4:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
-    }
-    .img-5 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
-        transform: translateY(-850%);
-    }
-    .img-5:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-5:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
-    }
-    .img-6 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
-        transform: translateY(-850%);
-    }
-    .img-6:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-6:hover img {
         transition: .5s ease;
         opacity: 0.5;
     }
