@@ -200,7 +200,7 @@ nav {
     body {
         overflow-x: hidden;
         overflow-y: scroll !important;
-        /* position: fixed; */
+        position: fixed;
     }
     .nav-links {
         position: absolute;
