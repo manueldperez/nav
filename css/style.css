@@ -199,7 +199,8 @@ nav {
 @media screen and (max-width:600px) {
     body {
         overflow-x: hidden;
-        position: fixed;
+        overflow-y: scroll !important;
+        /* position: fixed; */
     }
     .nav-links {
         position: absolute;
@@ -247,7 +248,7 @@ nav {
         opacity: 0;
         display: grid;
         justify-content: center;
-        transform: translateY(-850%);
+        transform: translateY(-900%);
     }
     .img-1:hover .text-container {
         opacity: 1;
@@ -275,7 +276,7 @@ nav {
         opacity: 0;
         display: grid;
         justify-content: center;
-        transform: translateY(-850%);
+        transform: translateY(-800%);
     }
     .img-3:hover .text-container {
         opacity: 1;
@@ -289,7 +290,7 @@ nav {
         opacity: 0;
         display: grid;
         justify-content: center;
-        transform: translateY(-850%);
+        transform: translateY(-950%);
     }
     .img-4:hover .text-container {
         opacity: 1;
