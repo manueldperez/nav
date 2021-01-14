@@ -197,10 +197,10 @@ body {
     phone screen size
 ***************************/
 @media screen and (max-width:600px) {
-    html, body {
+    /* html, body {
         overflow-x: hidden;
         /* position: relative; */
-    }
+    /* }  */
     .nav-links {
         position: absolute;
         right: 0;
