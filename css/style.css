@@ -203,8 +203,8 @@ nav {
     } */
     body {
         overflow-x: hidden;
-        overflow-y: scroll !important;
-        position: absolute;
+        /* overflow-y: scroll !important; */
+        position: relative;
     }
     .nav-links {
         position: absolute;
