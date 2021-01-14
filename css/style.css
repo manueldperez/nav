@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
-    overflow-x: hidden;
 }
 /*********************************************** nav ***********************************************/
 nav {
@@ -47,6 +46,10 @@ nav {
 }
 
 /*********************************************** body ***********************************************/
+
+body {
+    overflow-x: hidden;
+}
 
 /**************************
     large screen size
