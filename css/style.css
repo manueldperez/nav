@@ -47,9 +47,9 @@ nav {
 
 /*********************************************** body ***********************************************/
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 /**************************
     large screen size
@@ -197,10 +197,10 @@ body {
     phone screen size
 ***************************/
 @media screen and (max-width:600px) {
-    /* html, body {
+    body {
         overflow-x: hidden;
-        /* position: relative; */
-    /* }  */
+        position: fixed;
+    }
     .nav-links {
         position: absolute;
         right: 0;
