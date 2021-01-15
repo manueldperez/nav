@@ -262,7 +262,7 @@ nav {
     }
     .photo-container .img-1 img {
         transition: none;
-        height: 20vh;
+        height: 50%;
     }
     .img-2 .text-container {
         transform: translateY(-900%);
