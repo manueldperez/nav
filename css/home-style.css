@@ -255,14 +255,13 @@ nav {
     .img-1 .text-container {
         transform: translateY(-900%);
         opacity: 1;
-        /* transition: none; */
+        transition: none;
     }
     .img-1 .text-container {
         opacity: unset;
     }
     .photo-container .img-1 img {
         transition: none;
-        height: 100%;
     }
     .img-2 .text-container {
         transform: translateY(-900%);
