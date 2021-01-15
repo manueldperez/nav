@@ -235,22 +235,32 @@ nav {
         margin-bottom: -10%;
     }
     .img-1 .text-container {
-        transform: translateY(-1100%);
+        transform: translateY(-750%);
+        opacity: 1;
+    }
+    .img-1 .text-container {
+    }
+    .photo-container .img-1 img {
     }
     .img-2 .text-container {
-        transform: translateY(-1100%);
+        transform: translateY(-850%);
+        opacity: 1;
     }
     .img-3 .text-container {
-        transform: translateY(-1100%);
+        transform: translateY(-850%);
+        opacity: 1;
     }
     .img-4 .text-container {
-        transform: translateY(-1100%);
+        transform: translateY(-850%);
+        opacity: 1;
     }
     .img-5 .text-container {
-        transform: translateY(-1100%);
+        transform: translateY(-850%);
+        opacity: 1;
     }
     .img-6 .text-container {
-        transform: translateY(-1100%);
+        transform: translateY(-850%);
+        opacity: 1;
     }
     .text {
         font-size: 16px;
