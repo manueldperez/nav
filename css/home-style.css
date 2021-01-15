@@ -257,9 +257,15 @@ nav {
         opacity: 1;
         transition: none;
     }
+    .photo-container .img-1 img {
+        transition: none;
+    }
     .img-2 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
+    }
+    .photo-container .img-2 img {
         transition: none;
     }
     .img-3 .text-container {
@@ -267,9 +273,15 @@ nav {
         opacity: 1;
         transition: none;
     }
+    .photo-container .img-3 img {
+        transition: none;
+    }
     .img-4 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
+    }
+    .photo-container .img-4 img {
         transition: none;
     }
     .img-5 .text-container {
@@ -277,9 +289,15 @@ nav {
         opacity: 1;
         transition: none;
     }
+    .photo-container .img-5 img {
+        transition: none;
+    }
     .img-6 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
+    }
+    .photo-container .img-6 img {
         transition: none;
     }
     .text {
