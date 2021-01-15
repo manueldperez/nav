@@ -255,26 +255,32 @@ nav {
     .img-1 .text-container {
         transform: translateY(-750%);
         opacity: 1;
+        transition: none;
     }
     .img-2 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
     }
     .img-3 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
     }
     .img-4 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
     }
     .img-5 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
     }
     .img-6 .text-container {
         transform: translateY(-850%);
         opacity: 1;
+        transition: none;
     }
     .text {
         font-size: 16px;
