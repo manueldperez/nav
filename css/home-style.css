@@ -253,49 +253,67 @@ nav {
         margin-bottom: -10%;
     }
     .img-1 .text-container {
-        transform: translateY(-750%);
+        transform: translateY(-900%);
         opacity: 1;
         transition: none;
+    }
+    .img-1 .text-container {
+        opacity: unset;
     }
     .photo-container .img-1 img {
         transition: none;
     }
     .img-2 .text-container {
-        transform: translateY(-850%);
+        transform: translateY(-900%);
         opacity: 1;
         transition: none;
+    }
+    .img-2 .text-container {
+        opacity: unset;
     }
     .photo-container .img-2 img {
         transition: none;
     }
     .img-3 .text-container {
-        transform: translateY(-850%);
+        transform: translateY(-900%);
         opacity: 1;
         transition: none;
+    }
+    .img-3 .text-container {
+        opacity: unset;
     }
     .photo-container .img-3 img {
         transition: none;
     }
     .img-4 .text-container {
-        transform: translateY(-850%);
+        transform: translateY(-900%);
         opacity: 1;
         transition: none;
+    }
+    .img-4 .text-container {
+        opacity: unset;
     }
     .photo-container .img-4 img {
         transition: none;
     }
     .img-5 .text-container {
-        transform: translateY(-850%);
+        transform: translateY(-900%);
         opacity: 1;
         transition: none;
+    }
+    .img-5 .text-container {
+        opacity: unset;
     }
     .photo-container .img-5 img {
         transition: none;
     }
     .img-6 .text-container {
-        transform: translateY(-850%);
+        transform: translateY(-900%);
         opacity: 1;
         transition: none;
+    }
+    .img-6 .text-container {
+        opacity: unset;
     }
     .photo-container .img-6 img {
         transition: none;
