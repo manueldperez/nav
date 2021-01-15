@@ -47,10 +47,6 @@ nav {
 
 /*********************************************** body ***********************************************/
 
-/* body {
-    overflow-x: hidden;
-} */
-
 /**************************
     large screen size
 ***************************/
@@ -163,6 +159,7 @@ nav {
     font-size: 24px;
     letter-spacing: 0.7em;
     padding: 0.5rem 0 0.5rem 0.7em;
+    text-transform: uppercase;
     border-radius: 10px;
   }
 
@@ -174,23 +171,32 @@ nav {
         width: 40%; 
     }
     .photo-container {
-        box-sizing: border-box;
-        max-width: 100%;
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:  0.7rem 1rem;
-        margin: 0 2rem;
-        justify-content: center;
     }
     .photo-container a {
-        margin-bottom: -8%;
+        margin-bottom: -12%;
     }
-    .photo-container img {
-        max-width: 100%;
-        max-height: auto;
-        width: 100%;
-        height: 50vh;
-        object-fit: cover;
+    .img-1 .text-container {
+        transform: translateY(-900%);
+    }
+    .img-2 .text-container {
+        transform: translateY(-900%);
+    }
+    .img-3 .text-container {
+        transform: translateY(-900%);
+    }
+    .img-4 .text-container {
+        transform: translateY(-900%);
+    }
+    .img-5 .text-container {
+        transform: translateY(-900%);
+    }
+    .img-6 .text-container {
+        transform: translateY(-900%);
+    }
+    .text {
+        font-size: 20px;
+        letter-spacing: 0.6em;
     }
 }
 /**************************
@@ -223,115 +229,31 @@ nav {
         display: block;
     }
     .photo-container {
-        box-sizing: border-box;
-        max-width: 100%;
-        display: grid;
         grid-template-columns: 1fr;
-        gap:  0.7rem 1rem;
-        margin: 0 2rem;
-        justify-content: center;
     }
     .photo-container a {
         margin-bottom: -10%;
     }
-    .photo-container img {
-        max-width: 100%;
-        max-height: auto;
-        width: 100%;
-        height: 50vh;
-        object-fit: cover;
-    }
     .img-1 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
         transform: translateY(-1100%);
-    }
-    .img-1:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-1:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
     }
     .img-2 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
         transform: translateY(-1100%);
-    }
-    .img-2:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-2:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
     }
     .img-3 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
         transform: translateY(-1100%);
-    }
-    .img-3:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-3:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
     }
     .img-4 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
         transform: translateY(-1100%);
-    }
-    .img-4:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-4:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
     }
     .img-5 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
         transform: translateY(-1100%);
-    }
-    .img-5:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-5:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
     }
     .img-6 .text-container {
-        transition: .5s ease;
-        opacity: 0;
-        display: grid;
-        justify-content: center;
         transform: translateY(-1100%);
     }
-    .img-6:hover .text-container {
-        opacity: 1;
-    }
-    .photo-container .img-6:hover img {
-        transition: .5s ease;
-        opacity: 0.5;
-    }
     .text {
-        background-color: rgba(255, 255, 255, 0.650);
-        color: #2c292c;
         font-size: 16px;
-        letter-spacing: 0.7em;
-        padding: 0.5rem 0 0.5rem 0.7em;
-        border-radius: 10px;
     }
 }
 
