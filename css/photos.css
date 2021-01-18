@@ -145,13 +145,21 @@ nav {
 /*************
     video 
 **************/
-.video-container {
+.video-container-horizontal {
     position: relative;
 }
-.video-container:after {
+.video-container-horizontal:after {
     content: '';
     display: block;
     padding-top: calc(100% / (16/9));
+}
+.video-container-vertical {
+    position: relative;
+}
+.video-container-vertical:after {
+    content: '';
+    display: block;
+    padding-top: calc(100% / (8/10));
 }
 .video iframe {
     position: absolute;
