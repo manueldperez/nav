@@ -108,8 +108,8 @@ nav {
 ***************************/
 @media screen and (max-width:1060px) {
     html, body {
-        /* overflow-x: hidden; */
-        width: 100%;
+        overflow-x: hidden;
+        max-width: 100%;
     }
     .nav-links {
         position: absolute;
