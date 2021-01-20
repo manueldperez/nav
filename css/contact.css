@@ -5,10 +5,15 @@
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
     display: none;
 }
-/*********************************************** nav ***********************************************/
+/***********
+    nav
+************/
 nav {
     display: flex;
     justify-content: space-around;
@@ -47,20 +52,15 @@ nav {
     display: none;
     cursor: pointer;
 }
+/**********************************
+    large screen sizes/monitors
+***********************************/
+
 
 /**************************
-    tablet screen size
+    touch screen devices
 ***************************/
-@media screen and (max-width:1024px) {
-    .nav-links {
-        width: 40%; 
-    }
-}
-
-/**************************
-    phone screen size
-***************************/
-@media screen and (max-width:600px) {
+@media screen and (max-width:1060px) {
     .nav-links {
         display: none;
     }
@@ -71,7 +71,9 @@ nav {
         display: block;
     }
 }
-/*********************************************** for javascript ***********************************************/
+/********************* 
+    for javascript 
+**********************/
 .nav-active {
     position: absolute;
     right: 0;

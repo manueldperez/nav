@@ -5,10 +5,15 @@
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
     display: none;
 }
-/*********************************************** nav ***********************************************/
+/***********
+    nav
+************/
 nav {
     display: flex;
     justify-content: space-around;
@@ -47,20 +52,40 @@ nav {
     display: none;
     cursor: pointer;
 }
-
-/**************************
-    tablet screen size
-***************************/
-@media screen and (max-width:1024px) {
-    .nav-links {
-        width: 40%; 
-    }
+/**********************************
+    large screen sizes/monitors
+***********************************/
+.text-container {
+    width: 50%;
+    display: inline-block;
 }
-
+.photo-container {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 30%;
+}
+.photo-container::after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 300px;
+}
 /**************************
-    phone screen size
+    touch screen devices
 ***************************/
-@media screen and (max-width:600px) {
+@media screen and (max-width:1060px) {
     .nav-links {
         display: none;
     }
@@ -71,7 +96,9 @@ nav {
         display: block;
     }
 }
-/*********************************************** for javascript ***********************************************/
+/********************* 
+    for javascript 
+**********************/
 .nav-active {
     position: absolute;
     right: 0;
