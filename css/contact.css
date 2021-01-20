@@ -5,6 +5,9 @@
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 /*********************************************** nav ***********************************************/
 nav {
     display: flex;
@@ -58,9 +61,6 @@ nav {
     phone screen size
 ***************************/
 @media screen and (max-width:600px) {
-    html {
-        overflow-x: hidden;
-    }
     .nav-links {
         display: none;
     }
