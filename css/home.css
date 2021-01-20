@@ -5,6 +5,10 @@
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
 }
+html, nav, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 /***********
     nav
 ************/
@@ -103,9 +107,10 @@ nav {
     touch screen devices
 ***************************/
 @media screen and (max-width:1060px) {
-    html {
+    /* html, nav, body {
+        width: 100%;
         overflow-x: hidden;
-    }
+    } */
     .nav-links {
         position: absolute;
         right: 0;
