@@ -107,21 +107,7 @@ nav {
         overflow-x: hidden;
     }
     .nav-links {
-        position: absolute;
-        right: 0;
-        height: 45vh;
-        top: 7vh;
-        background-color: white;
-        border-radius: 1vh;
-        z-index: 1;
-
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-        align-items: center;
-        opacity: 0;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
+        display: none;
     }
     .nav-links li {
         opacity: 0;
@@ -142,13 +128,22 @@ nav {
     for javascript 
 **********************/
 .nav-active {
-    transform: translateX(0%);
-    opacity: 1;
+    position: absolute;
+    right: 0;
+    height: 45vh;
+    top: 6vh;
+    background-color: white;
+    border-radius: 1vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
 }
 @keyframes navLinkFade {
     from {
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(30px);
     }
     to {
         opacity: 1;
