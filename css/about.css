@@ -133,9 +133,9 @@ main {
         grid-row: 1;
     }
     main {
-    padding-top: 0;
-    padding-bottom: 3rem;
-}
+        padding-top: 0;
+        padding-bottom: 3rem;
+    }
 }
 
 /********************* 
