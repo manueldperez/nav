@@ -34,13 +34,7 @@ window.addEventListener("DOMContentLoaded", function() {
     
     function success() {
       form.reset();
-      if (status.classList.contains('error')) {
-        status.classList.remove('error');
-        status.classList.add('success');
-      }
-      else {
-        status.classList.add('success');
-      }
+      status.classList.add('success');
       status.innerHTML = "Thanks!";
       setTimeout(function() {
         status.classList.remove('success');
@@ -49,14 +43,7 @@ window.addEventListener("DOMContentLoaded", function() {
     }
 
     function error() {
-      if (status.classList.contains('success')) {
-        status.classList.remove('success');
-        status.classList.add('error');
-      }
-      else {
-        status.classList.add('error');
-      }
-      
+      status.classList.add('error');
       status.innerHTML = "Oops! There was a problem.";
       setTimeout(function() {
         status.classList.remove('error');
