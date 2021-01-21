@@ -56,15 +56,20 @@ nav {
 /**********************************
     large screen sizes/monitors
 ***********************************/
-.text-container {
-    width: 50%;
-    display: inline-block;
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.content > .text-container {
+    grid-row: 1;
 }
 .photo-container {
-    display: inline-block;
     position: relative;
-    width: 30%;
-    height: 30%;
+    max-width: 30rem;
+    width: 100%;
+    height: auto;
 }
 .photo-container::after {
     content: '';
@@ -75,6 +80,7 @@ nav {
     position: absolute;
     width: 100%;
     height: 100%;
+    padding: 1rem;
 }
 .image {
     width: 100%;
@@ -82,6 +88,23 @@ nav {
     object-fit: cover;
     object-position: center;
     border-radius: 300px;
+}
+.text-container {
+    text-align: left;
+    width: 100%;
+    padding: 1rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    padding: 0 5%;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+p {
+    margin-bottom: 1rem;
 }
 /**************************
     touch screen devices
@@ -95,6 +118,16 @@ nav {
     }
     .expand {
         display: block;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-container {
+        padding-right: 5%;
+    }
+    .content > .photo-container {
+        grid-row: 1;
     }
 }
 /********************* 
