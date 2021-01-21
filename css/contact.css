@@ -131,6 +131,12 @@ button:hover {
     .expand {
         display: block;
     }
+    button:hover {
+        background-color: unset;
+    }
+    button {
+        background-color: rgba(120, 120, 120, 0.2);
+    }
 }
 /********************* 
     for javascript 
