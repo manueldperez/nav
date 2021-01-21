@@ -168,10 +168,10 @@ button:hover {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 #status.success {
-    animation: status 4s ease-in-out forwards;
+    animation: status 2s ease forwards;
 }
 #status.error {
-    animation: status 4s ease-in-out forwards;
+    animation: status 2s ease forwards;
 }
 @keyframes status {
     0% {
