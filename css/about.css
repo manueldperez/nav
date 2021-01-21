@@ -106,6 +106,9 @@ h2 {
 p {
     margin-bottom: 1rem;
 }
+main {
+    padding-top: 8%;
+}
 /**************************
     touch screen devices
 ***************************/
@@ -129,10 +132,12 @@ p {
     .content > .photo-container {
         grid-row: 1;
     }
-}
-main {
+    main {
+    padding-top: 0;
     padding-bottom: 3rem;
 }
+}
+
 /********************* 
     for javascript 
 **********************/
