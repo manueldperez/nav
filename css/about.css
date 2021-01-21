@@ -130,6 +130,9 @@ p {
         grid-row: 1;
     }
 }
+main {
+    padding-bottom: 3rem;
+}
 /********************* 
     for javascript 
 **********************/
