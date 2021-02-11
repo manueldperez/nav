@@ -1,7 +1,7 @@
 nav {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: minmax(5vh, auto);
+    grid-template-rows: minmax(6vh, auto);
     align-items: center;
     position: fixed;
     width: 100%;

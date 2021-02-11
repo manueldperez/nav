@@ -5,7 +5,7 @@
     display: grid;
     row-gap: 0.5rem;
     justify-content: center;
-    padding-top: 5vh;
+    padding-top: 6vh;
 }
 .photo-container img {
     width: 50rem;

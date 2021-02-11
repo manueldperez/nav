@@ -3,7 +3,7 @@
     grid-template-columns: 2fr 1fr;
     align-items: center;
     justify-items: center;
-    padding-top: 5vh;
+    padding-top: 6vh;
 }
 .content > .text-container {
     grid-row: 1;

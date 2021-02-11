@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     grid-gap: 1rem;
-    padding-top: 5vh;
+    padding-top: 6vh;
 }
 .project {
     position: relative;
