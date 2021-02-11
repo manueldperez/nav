@@ -1,65 +1,9 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Nanum Gothic', sans-serif;
-    text-decoration: none;
-}
-::-webkit-scrollbar {
-    display: none;
-}
-html {
-    overflow-x: hidden;
-}
-/***********
-    nav
-************/
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-}
-.title {
-    color: #5f565e;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 20px;
-}
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 24%;
-}
-.nav-links a {
-    color: #5f565e;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: 300;
-    font-size: 14px;
-}
-.nav-links li {
-    list-style: none;
-}
-.expand div {
-    width: 25px;
-    height: 3px;
-    background-color: #5f565e;
-    margin: 5px;
-    transition: all 0.5s ease;
-}
-.expand {
-    display: none;
-    cursor: pointer;
-}
-/**********************************
-    large screen sizes/monitors
-***********************************/
 .grid {
     padding: 0 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     grid-gap: 1rem;
+    padding-top: 5vh;
 }
 .project {
     position: relative;
@@ -109,15 +53,6 @@ nav {
     touch screen devices
 ***************************/
 @media screen and (max-width:1060px) {
-    .nav-links {
-        display: none;
-    }
-    .nav-links li {
-        opacity: 0;
-    }
-    .expand {
-        display: block;
-    }
     .text-container {
         transition: unset;
         opacity: 1;
@@ -126,39 +61,4 @@ nav {
         transition: unset;
         opacity: 1;
     }
-}
-/********************* 
-    for javascript 
-**********************/
-.nav-active {
-    position: absolute;
-    right: 0;
-    height: 45vh;
-    top: 6vh;
-    background-color: white;
-    border-radius: 1vh;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    align-items: center;
-}
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2 {
-    opacity: 0;
-}
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
 }
