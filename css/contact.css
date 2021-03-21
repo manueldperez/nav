@@ -92,3 +92,12 @@ button:hover {
         pointer-events: none;
     }
 }
+@media screen and (max-width:375px) {
+    button {
+        width: unset;
+    }
+    .container {
+        padding: 1rem;
+        border-radius: 15px;
+    }
+}
