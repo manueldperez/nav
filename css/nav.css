@@ -72,6 +72,9 @@ nav {
     nav {
         grid-template-columns: 5fr 1fr;
     }
+    .title h4 {
+        font-weight: bold;
+    }
     .nav-links {
         display: none;
         padding-right: 0;
