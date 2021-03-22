@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
 }
 html {
     overflow-x: hidden;
