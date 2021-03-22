@@ -23,8 +23,6 @@ nav {
 .title h4 {
     font-weight: lighter;
     display: flex;
-    font-size: 2rem;
-    transition: 1s ease-in-out;
 }
 .nav-links {
     display: flex;
@@ -36,7 +34,7 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 14px;
     transition: 1s ease-in-out;
 }
 .nav-links li {
@@ -57,16 +55,6 @@ nav {
 /**************************
     touch screen devices
 ***************************/
-@media screen and (max-width:1750px) {
-    .title h4 {
-        font-size: 1rem;
-        transition: 1s ease-in-out;
-    }
-    .nav-links a {
-        font-size: 14px;
-        transition: 1s ease-in-out;
-    }
-}
 @media screen and (max-width:1060px) {
     nav {
         grid-template-columns: 5fr 1fr;
