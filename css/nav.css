@@ -55,13 +55,19 @@ nav {
 /**************************
     touch screen devices
 ***************************/
+@media screen and (min-width:2560px) {
+    .title h4 {
+        font-size: 1.5rem;
+        transition: 1s ease-in-out;
+    }
+    .nav-links a {
+        font-size: 20px;
+        transition: 1s ease-in-out;
+    }
+}
 @media screen and (max-width:1060px) {
     nav {
         grid-template-columns: 5fr 1fr;
-    }
-    .title h4 {
-        font-weight: bold;
-        transition: 1s ease-in-out;
     }
     .nav-links {
         display: none;
