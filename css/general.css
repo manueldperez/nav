@@ -1,14 +1,14 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Nanum Gothic', sans-serif;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
